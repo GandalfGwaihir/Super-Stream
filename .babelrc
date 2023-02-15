@@ -1,13 +1,4 @@
 {
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "~": "./src"
-        }
-      }
-    ]
-  ],
-  "presets": ["@babel/preset-react"]
+  "presets": ["next/babel"],
+  "plugins": ["@emotion"]
 }
